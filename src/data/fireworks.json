@@ -66,7 +66,7 @@
         "speed": 1
       },
       "bounce": {
-        "distance": 200
+        "distance": 2000
       },
       "bubble": {
         "distance": 200,

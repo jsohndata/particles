@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+h1 {
+  font-family: 'Limelight', cursive;
+  font-size: clamp(4rem, 9vw, 10rem);
+  color: white;
+  text-align: center;
+}

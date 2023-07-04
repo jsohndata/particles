@@ -1,22 +1,19 @@
-import { useCallback } from 'react';
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
-import ParticlesOptions from './data/click-particles.json';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Fireworks from './pages/Fireworks';
+import ClickParticles from './pages/ClickParticles';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.css';
 
 function App() {
-  const particlesInit = useCallback(
-    main => {loadFull(main)}, []
-  );
 
   return (
-    <>
-      <h1 style={{color: "#0000ff"}}>Fireworks Happy 4th!!</h1>
-      <Particles
-        options={ParticlesOptions}
-        init={particlesInit} />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/click-particles" element={<ClickParticles />} />
+        <Route path="/particles-fireworks" element={<Fireworks />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
