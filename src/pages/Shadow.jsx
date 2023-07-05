@@ -2,10 +2,10 @@ import { useCallback } from 'react';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
-import ParticlesOptions from '../data/click-particles.json';
+import ParticlesOptions from '../data/shadow.json';
 import AppLayout from '../layouts/AppLayout';
 
-export default function FireWorks() {
+export default function Shadow() {
   const particlesInit = useCallback(
     main => {loadFull(main)}, []
   );

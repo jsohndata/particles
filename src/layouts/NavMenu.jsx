@@ -13,8 +13,8 @@ export default function NavMenu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/particles">FireWorks</Nav.Link>
-            <Nav.Link as={Link} to="/click-particles">ClickParticles</Nav.Link>            
+            <Nav.Link as={Link} to="/particles/fireworks">FireWorks</Nav.Link>
+            <Nav.Link as={Link} to="/particles/shadow">Shadow</Nav.Link>            
           </Nav>
         </Navbar.Collapse>
         
