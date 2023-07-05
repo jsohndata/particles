@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/particles-fireworks/static/css/main.31d6cfe0.css",
-    "main.js": "/particles-fireworks/static/js/main.e8ebe60e.js",
+    "main.css": "/particles-fireworks/static/css/main.814cf3eb.css",
+    "main.js": "/particles-fireworks/static/js/main.0e7d9e0a.js",
     "index.html": "/particles-fireworks/index.html",
-    "main.e8ebe60e.js.map": "/particles-fireworks/static/js/main.e8ebe60e.js.map"
+    "main.814cf3eb.css.map": "/particles-fireworks/static/css/main.814cf3eb.css.map",
+    "main.0e7d9e0a.js.map": "/particles-fireworks/static/js/main.0e7d9e0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.e8ebe60e.js"
+    "static/css/main.814cf3eb.css",
+    "static/js/main.0e7d9e0a.js"
   ]
 }
