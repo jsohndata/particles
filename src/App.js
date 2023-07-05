@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
 import Fireworks from './pages/Fireworks';
 import ClickParticles from './pages/ClickParticles';
 
@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/click-particles" element={<ClickParticles />} />
-        <Route path="/particles-fireworks" element={<Fireworks />} />
+        <Route path="/particles" element={<Fireworks />} />
       </Routes>
     </BrowserRouter>
   );
