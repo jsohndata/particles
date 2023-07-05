@@ -24,7 +24,7 @@
   "delay": 0,
   "fullScreen": {
     "enable": true,
-    "zIndex": 1
+    "zIndex": -100
   },
   "detectRetina": true,
   "duration": 0,
@@ -32,10 +32,7 @@
   "interactivity": {
     "detectsOn": "window",
     "events": {
-      "onClick": {
-        "enable": true,
-        "mode": "push"
-      },
+      
       "onDiv": {
         "selectors": "#repulse-div",
         "enable": false,

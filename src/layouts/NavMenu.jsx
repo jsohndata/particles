@@ -8,15 +8,16 @@ export default function NavMenu() {
   return (
     <Navbar variant="dark" expand="lg" className="bg-dark">
       <Container>
-        <Navbar.Brand as={Link} to="#home">Particles</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/particles-fireworks">Particles</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="#home">FireWorks</Nav.Link>
+            <Nav.Link as={Link} to="/particles-fireworks">FireWorks</Nav.Link>
             <Nav.Link as={Link} to="/click-particles">ClickParticles</Nav.Link>            
           </Nav>
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>    
   );
